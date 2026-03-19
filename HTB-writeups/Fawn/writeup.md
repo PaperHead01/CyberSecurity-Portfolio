@@ -18,7 +18,7 @@ Gain access to the target machine and retrieve the flag.
 Verify that the target machine is reachable.
 
 Command:
-ping 10.129.7.229
+```ping 10.129.7.229 ```
 
 ---
 
