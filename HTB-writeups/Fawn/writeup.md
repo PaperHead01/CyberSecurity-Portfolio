@@ -81,6 +81,8 @@ ls
 
 A file named flag.txt is found.
 
+![](file-enumeration.png)
+
 ---
 
 ## Step 6 — Downloading the Flag
@@ -90,11 +92,16 @@ Download the file.
 Command:
 get flag.txt
 
+![](downloading-flag.png)
+
 Verify locally:
 
 cat flag.txt
 
 Flag successfully retrieved.
+
+### Flag
+![](flag.png)
 
 ---
 
