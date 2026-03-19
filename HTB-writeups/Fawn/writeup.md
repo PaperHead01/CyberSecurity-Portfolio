@@ -66,6 +66,10 @@ Login successful.
 Observation:
 FTP allows anonymous login without authentication.
 
+### FTP Login
+
+![](ftp-login.png)
+
 ---
 
 ## Step 5 — File Enumeration
