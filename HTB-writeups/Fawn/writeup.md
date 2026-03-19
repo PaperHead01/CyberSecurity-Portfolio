@@ -18,7 +18,7 @@ Gain access to the target machine and retrieve the flag.
 Verify that the target machine is reachable.
 
 Command:
-```ping 10.129.7.229 ```
+``` ping 10.129.7.229 ```
 
 ---
 
@@ -27,7 +27,7 @@ Command:
 Scan for open ports and services.
 
 Command:
-nmap -sC -sV 10.129.7.229
+``` nmap -sC -sV 10.129.7.229 ```
 
 Explanation:
 -sC → default scripts  
@@ -47,7 +47,7 @@ FTP service is running on port 21.
 Since FTP is open, attempt connection.
 
 Command:
-ftp 10.129.7.229
+``` ftp 10.129.7.229 ```
 
 ---
 
@@ -77,7 +77,7 @@ FTP allows anonymous login without authentication.
 List files in the directory.
 
 Command:
-ls
+``` ls ```
 
 A file named flag.txt is found.
 
@@ -90,7 +90,7 @@ A file named flag.txt is found.
 Download the file.
 
 Command:
-get flag.txt
+``` get flag.txt ```
 
 ![](downloading-flag.png)
 
